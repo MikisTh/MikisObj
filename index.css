@@ -3,10 +3,11 @@ p {
 }
 
 button {
+    font-family: Verdana, Tahoma, sans-serif;
     border-color: antiquewhite;
     border: 15px;
-    border-radius: 10px;
-    background-color: rgb(42, 127, 161);
+    border-radius: 5px;
+    background-color: rgb(196, 229, 242);
     align-items: center;
 }
 body {
@@ -25,6 +26,7 @@ flex-container {
 
 form {
       align-items: center;
+      justify-content: center;
       font-family: Verdana,Tahoma,sans-serif;
       font-size: 15px;
       background-color: #23ddd9;
