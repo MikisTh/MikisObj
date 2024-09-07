@@ -1,6 +1,10 @@
+p { 
+    align-items: center;
+}
+
 button {
     border-color: antiquewhite;
-    background-color: red;
+    background-color: rgb(83, 105, 174);
     align-items: center;
 }
 body {
