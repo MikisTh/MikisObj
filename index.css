@@ -7,6 +7,13 @@
     padding: 0;
     margin: 0;
 }
+CSS
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; 
+}
 
 form {
       font-family: Verdana,Tahoma,sans-serif;
