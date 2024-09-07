@@ -4,9 +4,9 @@ p {
 
 button {
     border-color: antiquewhite;
-    border: 10px;
-    border-radius: 5px;
-    background-color: rgb(140, 208, 212);
+    border: 15;
+    border-radius: 10;
+    background-color: rgb(42, 127, 161);
     align-items: center;
 }
 body {
@@ -20,65 +20,65 @@ flex-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px; 
+  height: 300; 
 }
 
 form {
       align-items: center;
       font-family: Verdana,Tahoma,sans-serif;
-      font-size: 15px;
+      font-size: 15;
       background-color: #23ddd9;
-      max-width: 500px;  
+      max-width: 500;  
       margin: 0 auto;
-      width: 400px; 
+      width: 400; 
       padding: 1em;
-      border: 1px solid #ccc;
+      border: 1 solid #ccc;
       border-radius: 1em;
 }
 h1 {
     align-items: center;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin-bottom: 20;
+    margin-left: 20;
     color: #5fb4f5;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5 black;
 }
 
 input, textarea {
-    width: 200px;
-    padding: 10px;
+    width: 200;
+    padding: 10;
     color: black;
-    margin-left: 20px;
-    margin-top: 10px;
-    border: 1px solid;
+    margin-left: 20;
+    margin-top: 10;
+    border: 1 solid;
 }
 
 input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: #000066;
-    box-shadow: 5px 0px 9px #5c739f73;
+    box-shadow: 5 #5c739f73;
     background-color: #5ab9b9;
     color: black;
     font-weight: bold;
 }
 
-.enviar {
+.submit {
     background-color: #5e8080;
-    height: 40px;
-    width: 100px;
+    height: 40;
+    width: 100;
     font-weight: bold;
-    border-radius: 5px;
-    border: 1px solid;
+    border-radius: 5;
+    border: 1 solid;
     color: black;
 }
 
 textarea {
-    width: 400px;
-    height: 120px;
-    line-height: 20px;
-    max-width: 400px;
+    width: 400;
+    height: 120;
+    line-height: 20;
+    max-width: 400;
 }
 
 form label {
-    margin-left: 20px;
+    margin-left: 20;
     color: #FFFFFF;
     font-weight: bold;
 }
