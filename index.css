@@ -3,7 +3,8 @@
     background-color: red;
 }
 .body {
-    background-color: blue;
+    align-items: center;
+    background-color: rgb(134, 170, 214);
     padding: 0;
     margin: 0;
 }
@@ -19,7 +20,7 @@ form {
       align-items: center;
       font-family: Verdana,Tahoma,sans-serif;
       font-size: 15px;
-      background-color: #CC3300;
+      background-color: #23ddd9;
       max-width: 500px;  
       margin: 0 auto;
       width: 400px; 
@@ -30,7 +31,7 @@ form {
 h1 {
     margin-bottom: 20px;
     margin-left: 20px;
-    color: #66FFFF;
+    color: #b3dada;
     text-shadow: 5px 5px 5px black;
 }
 
@@ -47,14 +48,14 @@ input, textarea {
 
 input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: #000066;
-    box-shadow: 5px 0px 9px #FFFF00;
-    background-color: #66FFFF;
+    box-shadow: 5px 0px 9px #5c739f73;
+    background-color: #5ab9b9;
     color: black;
     font-weight: bold;
 }
 
 .enviar {
-    background-color: #66FFFF;
+    background-color: #5e8080;
     height: 40px;
     width: 100px;
     font-weight: bold;
