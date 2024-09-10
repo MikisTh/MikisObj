@@ -54,7 +54,6 @@ const handleBtAdicionarClick = () => {
     inputIdade.focus();
     return;
   }
-
   inputMat.value = matrícula;
   inputNome.value = nome;
   inputIdade.value = idade;
@@ -82,6 +81,26 @@ btSalvar.onclick = handleBtSalvarClick;
   console.log(alert("Aluno adicionado com sucesso!"));
 btLimpar.onclick = handleBtLimparClick;
 
+
+
+//Array Notas 
+  const notas = [];
+let soma = 0;
+for (let i = 0; i < notas.length; i++) {
+  soma += notas[i];
+}
+const media = soma / notas.length;
+console.log("A média das notas é:", media);
+  
+// Array Alunos
+  const alunos = [];
+let soma = 0;
+for (let i = 0; i < alunos.length; i++) {
+  soma += alunos[i];
+}
+const media = soma / alunos.length;
+console.log("A média de alunos é:", media);
+
 //arrays
 let notas = new Array(n);
 console.log(nota[]);
@@ -93,20 +112,14 @@ console.log(nome[]);
 //Validações
 let nomes = new Array(nome);
 console.log(nome[]);
-
-
 let matricula = new Array(matricula);
 console.log(inputMat[]));
-
-
 let cpf = new Array(cpf);
 console.log(cpf[]);
-
-
 let idade = new Array (idade);
 console.log(idade[]);
 
-// 
+// JSON
 var aluno = {
   nome:"",
   idade:"",
