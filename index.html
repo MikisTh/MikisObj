@@ -17,8 +17,67 @@
       welcome.setAttribute('name', name)
       document.body.appendChild(welcome)
       }
-    </script>
-    
+    document.addEventListener('DOMContentLoaded', function() {
+    const formulario = document.getElementById('meuFormulario');
+
+    formulario.addEventListener('submit', function(event) {
+      // Impedir o envio do formulário por padrão
+      event.preventDefault();
+
+      // Validar a matricula (mínimo de 8 caracteres)
+      const matriculaInput = document.getElementById('matricula');
+      const matriculaValor = matriculaInput.value.trim();
+      if (nomeValor.length < 8) {
+        alert('A matricula deve ter pelo menos 8 caracteres.');
+      } else (!isValidMatricula(matriculaValor)) {
+        alert('Por favor, insira uma matrícula válida.');
+        return;
+      }
+
+      // Validar o nome (mínimo de 3 caracteres)
+      const nomeInput = document.getElementById('nome');
+      const nomeValor = nomeInput.value.trim();
+      if (nomeValor.length < 3) {
+        alert('Número de caracteres inválidos');
+      } else (!isValidNome(nomeValor)) {
+        alert('Por favor, insira um nome válido.');
+        return;
+      }
+
+       // Validar a idade (valor mínimo inteiro)
+      const idadeInput = document.getElementById('idade');
+      const idadeValor = idadeInput.value.trim();
+      if (idadeValor.length != int) {
+        alert('Informe um valor inteiro');
+      } else (!isValidIdade(idadeValor)) {
+        alert('Por favor, insira um valor inteiro para sua idade.');
+        return;
+      }
+
+       // Validar o cpf (mínimo de 14 caracteres)
+      const cpfInput = document.getElementById('cpf');
+      const cpfValor = cpfInput.value.trim();
+      if (cpfValor.length < 14) {
+        alert('Número de caracteres inválidos');       
+      } else (!isValidCpf(cpfValor)) {
+        alert('Por favor, insira um CPF válido.');
+        return;
+      }
+
+      // Validar o email
+      const emailInput = document.getElementById('email');
+      const emailValor = emailInput.value.trim();
+      if (!isValidEmail(emailValor)) {
+        alert('Por favor, insira um email válido.');
+        return;
+      }
+
+      // Se a validação passar, você pode prosseguir com o envio do formulário
+      alert('Formulário enviado com sucesso!');
+      formulario.reset(); // Limpar o formulário após o envio
+    });
+
+         
     <form>
      <p><label>Matrícula: <input type="num" id="inputMatrícula" placeholder="digite sua matrícula: 00000-00" required maxlength="8"/></label></p>
      <p><label>Nome: <input type="text" name="nome" id="inputNome" placeholder="digite seu nome:"/></label></p>
@@ -28,6 +87,9 @@
         <p><button type="submit" id="btSubmit">Enviar</button></p>
         <p><button type="limpar" id="btLimpar">Limpar</button></p>
     </form>   
- 
+
+    
+  });
+</script>
   </body>
 </html>
