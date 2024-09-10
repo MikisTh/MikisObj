@@ -44,5 +44,8 @@ console.log(alert("Aluno adicionado com sucesso!"));
 console.log(confirm("Deseja adicionar aluno?"));
 console.log(prompt("Bem vindo!"));
 
+let aluno []= new aluno [];
+
+
 document.getElementById("titulo").innerHTML = "Alterando o título 1";
 
