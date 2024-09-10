@@ -8,7 +8,16 @@
   <body>
     <title>Sistema Acadêmico</title>
 
-    <v-welcome name=""></v-welcome><hr />
+          
+    <form>
+     <p><label>Matrícula: <input type="num" id="inputMatrícula" placeholder="digite sua matrícula: 00000-00" required maxlength="8"/></label></p>
+     <p><label>Nome: <input type="text" name="nome" id="inputNome" placeholder="digite seu nome:"/></label></p>
+     <p><label>Idade: <input type="int" name="idade" id="inputIdade" placeholder="digite sua idade:" /></label></p>
+     <p><label>CPF: <input type="num" name="cpf" id="inputCpf" placeholder="digite seu cpf: 000.000.000-00" required maxlength="14"/></label></p>     
+
+        <p><button type="submit" id="btSubmit">Enviar</button></p>
+        <p><button type="limpar" id="btLimpar">Limpar</button></p>
+    </form>   
 
     <script>
     const names = []
@@ -76,19 +85,7 @@
       alert('Formulário enviado com sucesso!');
       formulario.reset(); // Limpar o formulário após o envio
     });
-
-         
-    <form>
-     <p><label>Matrícula: <input type="num" id="inputMatrícula" placeholder="digite sua matrícula: 00000-00" required maxlength="8"/></label></p>
-     <p><label>Nome: <input type="text" name="nome" id="inputNome" placeholder="digite seu nome:"/></label></p>
-     <p><label>Idade: <input type="int" name="idade" id="inputIdade" placeholder="digite sua idade:" /></label></p>
-     <p><label>CPF: <input type="num" name="cpf" id="inputCpf" placeholder="digite seu cpf: 000.000.000-00" required maxlength="14"/></label></p>     
-
-        <p><button type="submit" id="btSubmit">Enviar</button></p>
-        <p><button type="limpar" id="btLimpar">Limpar</button></p>
-    </form>   
-
-    
+      
   });
 </script>
   </body>
