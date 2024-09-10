@@ -1,3 +1,5 @@
+console.log(prompt("Bem vindo!"));
+
 const btAdicAluno = document.getElementById("btAdicAluno");
 const inputMat = document.getElementById("inputMat");
 const inputNome = document.getElementById("inputNome");
@@ -37,12 +39,10 @@ const handleBtLimparClick = (evt) => {
   };
 
 btAdicionar.onclick = handleBtAdicionarClick;
+  console.log(confirm("Deseja adicionar aluno?"));
 btSalvar.onclick = handleBtSalvarClick;
+  console.log(alert("Aluno adicionado com sucesso!"));
 btLimpar.onclick = handleBtLimparClick;
-
-console.log(alert("Aluno adicionado com sucesso!"));
-console.log(confirm("Deseja adicionar aluno?"));
-console.log(prompt("Bem vindo!"));
 
 //arrays
 let notas = new Array(n);
