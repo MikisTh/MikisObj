@@ -1,4 +1,6 @@
 console.log(prompt("Bem vindo!"));
+btAdicionar.onclick = handleBtAdicionarClick;
+  console.log(confirm("Deseja adicionar aluno?"));
 
 const btAdicAluno = document.getElementById("btAdicAluno");
 const inputMat = document.getElementById("inputMat");
@@ -8,6 +10,43 @@ const inputCpf = document.getElementById("inputCpf");
 const btSubmit = document.getElementById("btEnviar");
 const btLimpar = document.getElementById("btLimpar");
 
+
+function validarMatricula(inputMat) {
+  if (inputMat.value.trim() === '') {
+    return 'Este campo é obrigatório.';
+  } else if (inputMat.aluno > 8 || inputMat.aluno < 8) {
+    console.log(alert("Número de caracteres inválidos!");
+  } else (
+  console.log(inputMat[]));
+  return '';
+}
+function validarNome(inputNome) {
+  if (inputNome.value.trim() === '') {
+    return 'Este campo é obrigatório.';
+  } else if (inputNome.aluno == 0) {
+    console.log(alert("Nome inválido!"));   
+  } else (
+ console.log(inputNome[]));
+  return '';
+}
+function validarIdade(inputIdade) {
+  if (inputIdade.value.trim() === '') {
+    return 'Este campo é obrigatório.';
+  } else if (inputIdade.aluno == 0) {
+    console.log(alert("Idade inválida!"));   
+  } else if (inputIdade.aluno != int)
+    console.log(alert("Informe um valor inteiro!")
+  } else (console.log(inputIdade[]));
+  return '';
+}
+function validarCpf(inputCpf) {
+  if (inputCpf.value.trim() === '') {
+    return 'Este campo é obrigatório.';
+  } else if (inputCpf.aluno > 14) {
+    console.log(alert("Número de caracteres inválidos!");
+  } else (console.log(inputCpf[]));
+  return '';
+}
 const handleBtAdicionarClick = () => {
   let idade = parseInt(inputIdade.value);
   if (isNaN(idade)) {
@@ -38,8 +77,7 @@ const handleBtLimparClick = (evt) => {
   inputCpf.value = "";
   };
 
-btAdicionar.onclick = handleBtAdicionarClick;
-  console.log(confirm("Deseja adicionar aluno?"));
+
 btSalvar.onclick = handleBtSalvarClick;
   console.log(alert("Aluno adicionado com sucesso!"));
 btLimpar.onclick = handleBtLimparClick;
@@ -54,22 +92,18 @@ console.log(nome[]);
 
 //Validações
 let nomes = new Array(nome);
-if (nome.aluno == 0) console.log(alert("Nome inválido!"));
 console.log(nome[]);
 
 
 let matricula = new Array(matricula);
-if (matricula.aluno > 8 || matricula.aluno < 8) console.log(alert("Número de caracteres inválidos!");
-console.log(matricula[]);
+console.log(inputMat[]));
 
 
 let cpf = new Array(cpf);
-if (cpf.aluno => 14) console.log(alert("Número de caracteres inválidos!");
 console.log(cpf[]);
 
 
 let idade = new Array (idade);
-if (idade.aluno != int) console.log(alert("Informe um número inteiro!");
 console.log(idade[]);
 
 // 
