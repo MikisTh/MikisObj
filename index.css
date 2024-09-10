@@ -4,11 +4,11 @@ p {
 
 button {
     font-family: Verdana, Tahoma, sans-serif;
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
     border-color: antiquewhite;
     border: 20px;
-    border-radius: 3px;
+    border-radius: 10px;
     background-color: rgb(196, 229, 242);
     align-items: center;
     justify-content: center;
