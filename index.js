@@ -44,7 +44,44 @@ console.log(alert("Aluno adicionado com sucesso!"));
 console.log(confirm("Deseja adicionar aluno?"));
 console.log(prompt("Bem vindo!"));
 
-let aluno []= new aluno [];
+//arrays
+let notas = new Array(n);
+console.log(nota[]);
+let alunos = new Array(aluno);
+console.log(aluno[]);
+let nomes = new Array(nome);
+console.log(nome[]);
+
+//Validações
+let nomes = new Array(nome);
+if (nome.aluno == 0) console.log(alert("Nome inválido!"));
+console.log(nome[]);
+
+
+let matricula = new Array(matricula);
+if (matricula.aluno > 8 || matricula.aluno < 8) console.log(alert("Número de caracteres inválidos!");
+console.log(matricula[]);
+
+
+let cpf = new Array(cpf);
+if (cpf.aluno => 14) console.log(alert("Número de caracteres inválidos!");
+console.log(cpf[]);
+
+
+let idade = new Array (idade);
+if (idade.aluno != int) console.log(alert("Informe um número inteiro!");
+console.log(idade[]);
+
+// 
+var aluno = {
+  nome:"",
+  idade:"",
+  cpf:"",
+  matricula:"",
+};
+
+console.log(aluno[]);
+console.log(alunos.length);
 
 
 document.getElementById("titulo").innerHTML = "Alterando o título 1";
