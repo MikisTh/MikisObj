@@ -127,6 +127,10 @@ var aluno = {
   matricula:"",
 };
 
+let alunos = [];
+alunos.push();
+console.log(alunos);
+
 console.log(aluno[]);
 console.log(alunos.length);
 
