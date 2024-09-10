@@ -30,9 +30,9 @@ const handleBtSalvarClick = () => {
 
 const handleBtLimparClick = (evt) => {
   console.log("evt.target", evt.target);
-  inputMat.value = 0;
-  inputNome.value = 0;
-  inputIdade.value = 0;
+  inputMat.value = "";
+  inputNome.value = "";
+  inputIdade.value = "";
   inputCpf.value = "";
   };
 
